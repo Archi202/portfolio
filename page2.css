@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding:0;
+    }
+
+    body {
+        background-color: rgb(7 6 48 / 85%);
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(54 51 98);
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+            list-style:none;
+            margin: 25px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        color: rgb(134, 134, 198);
+        font-size: 1.05rem;
+    }
+    .left{
+        font-size: 1.5rem;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-around;
+        margin: 140px 0;
+        align-items: center;
+    }
+    .firstSection > div{
+        /* display: flex;
+        justify-content: space-around; */
+        margin:30px 0;
+    }
+    .leftSection{
+        font-size: 3rem;
+        /* margin: 70 0; */
+    }
+    .rightSection img{
+        width: 400px;
+
+    }
+    .purple{
+        color: rgb(168, 117, 216);
+    }
+    #element{
+        color: rgb(168, 117, 216);
+    }
+    .secondSection{
+            width: 200;
+            margin: 100px;
+            text-align: center;
+            height: 50vh;
+    }
+    main hr{
+        border: 0;
+        background-color: rgb(104, 109, 189);
+        height: 1.2px;
+        margin: 40px 84px;
+    }
+    .secondSection h1{
+        font-size: 1.9rem;
+        margin:20px 0 40px 0 ;
+
+    }
+    .textgray{
+        color: gray;
+    }
+    .secondSection .box{
+        background-color: rgb(177 174 171);
+        width: 70vw;
+        height: 3px;
+        margin: auto ;
+        display: flex;
+
+    }
+    .secondSection .vertical{
+        background-color: rgb(222, 219, 216);
+        width: 1px;
+        height: 100px;
+        margin:  0px 155px;
+        /* display: flex; */
+
+    }
+    .secondSection .next{
+        margin: 0px 105px 0px 0px;
+    }
+    .vertical-3{
+        color: rgb(249, 249, 253);
+        background-color: rgb(243, 240, 237);
+        width: 1px;
+        height: 100px;
+        margin: 0px 164px;
+
+
+    }
+    .vertical-4{
+        color: rgb(249, 249, 253);
+        background-color: rgb(238, 235, 231);
+        width: 1px;
+        height: 100px;
+        margin: 0px 100px;
+    }
+    .vertical-5{
+        color: rgb(249, 249, 253);
+        background-color:rgb(253, 251, 250);
+        width: 1px;
+        height: 100px;
+        margin: 0px 173px;
+    }
+    .vertical-Text{
+        color: rgb(249, 249, 253);
+        position:relative;
+        top:97px;
+        width:150px;
+        right: 80px;
+        
+
+    }
+    .vertical-desc{
+        color: rgb(212, 221, 217);
+        width:150px;
+        position:relative;
+        top: 110px;
+        right: 90px;
+        font-size: 12px;
+
+    }
+    .vertical-text1{
+        color: rgb(246, 250, 249);
+     /* background-color: rgb(150, 39, 39);*/
+      position: relative;
+      top: 100px;
+      width: 150px;
+      right: 80px;
+}
+    
+    .vertical-desc1{
+        color: rgb(241, 246, 244);
+     /* background-color: rgb(150, 39, 39);*/
+     width: 150px;
+        position: relative;
+        top: 120px;
+        right: 80px;
+        font-size: 12px;
+    }
+    .vertical-text3{
+        color: rgb(249, 249, 253);
+     /* background-color: rgb(150, 39, 39);*/
+     position: relative;
+        top: 100px;
+        width: 150px;
+        right: 80px;
+
+    }
+    .vertical-desc3{
+        color: rgb(212, 221, 217);
+     /* background-color: rgb(150, 39, 39);*/
+     width: 150px;
+        position: relative;
+        top: 120px;
+        right: 80px;
+        font-size: 12px;
+    }
+    .vertical-text4{
+        color: rgb(243, 248, 246);
+     /* background-color: rgb(150, 39, 39);*/
+     position: relative;
+        top: 100px;
+        width: 150px;
+        right: 80px;
+
+    }
+    .vertical-desc4{
+        color: rgb(212, 221, 217);
+     /* background-color: rgb(150, 39, 39);*/
+     width: 150px;
+        position: relative;
+        top: 120px;
+        right: 80px;
+        font-size: 12px;
+    }
+
+    .vertical-text2-4{
+        color: rgb(245, 248, 246);
+     /* background-color: rgb(150, 39, 39);*/
+     position: relative;
+        top: 100px;
+        width: 150px;
+        right: 80px;
+
+    }
+    .vertical-desc2-4{
+        color: rgb(212, 221, 217);
+     /* background-color: rgb(150, 39, 39);*/
+     width: 150px;
+        position: relative;
+        top: 120px;
+        right: 80px;
+        font-size: 12px;
+    }
+
+    Footer{
+        background-color: rgb(79, 79, 141);
+        height: 200px;
+    }
+    .Footer{
+        
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px 233px;
+    }
+    .footer-First{
+    color: rgb(249, 249, 253);
+    position: relative;
+    right: 50px;
+    }
+    .footer-Second{
+    list-style: none;
+    font-size: 15px;
+    padding: 12px;
+    margin: 0px 100px 0px;
+
+    }
+    .footer-Third{
+    list-style: none;
+    font-size: 15px;
+    padding: 12px;
+    margin: 0px 100px 0px;
+
+    }
+    .footer-Fourth{
+    list-style: none;
+    font-size: 15px;
+    padding: 12px;
+    margin: 0px 100px 0px;
+    }
+    .footer-line{
+        color: gray;
+        text-align: center;
+        padding: 10px;
+
+    }
+    .btn{
+        padding: 12px;
+        background-color: rgb(43 43 78);
+        color: aliceblue;
+        border: 2px solid white;
+        border-radius: 3px;
+        font-size:15px ;
+    }
+    .btn:hover{
+        color: rgb(134, 134, 153);
+        font-size: 1.05rem;
+    }
+
